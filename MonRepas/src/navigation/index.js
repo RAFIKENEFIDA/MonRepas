@@ -9,6 +9,8 @@ import Pharmacies from '../screens/Pharmacies';
 import { TabBarIcon, MapButton } from '../components/index';
 import { FontAwesome5 } from '@expo/vector-icons'; 
 import { Ionicons } from '@expo/vector-icons'; 
+import { FoodInfo } from "../screens/FoodInfo";
+
 
 const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
@@ -101,6 +103,25 @@ function RootNavigator() {
       <Stack.Screen
         name='Root'
         component={BottomTabNavigator}
+        options={{ headerShown: false }}
+      />
+
+<Stack.Screen
+        name="FoodInfo"
+        component={FoodInfo}
+        options={{ headerShown: false }}
+      />
+    </Stack.Navigator>
+  );
+}
+
+
+function FoodNavigator() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen
+        name="FoodInfo"
+        component={FoodInfo}
         options={{ headerShown: false }}
       />
     </Stack.Navigator>

@@ -1,27 +1,27 @@
 const Categories = [
     {
       image: require("../../assets/image/categorie1.jpg"),
-      text: "Les bracelets",
+      text: "Categorie1",
     },
     {
       image: require("../../assets/image/categorie1.jpg"),
-      text: "Les colliers",
+      text: "Catgorie2",
     },
     {
       image: require("../../assets/image/categorie1.jpg"),
-      text: "Les boucles",
+      text: "Catgorie3",
     },
     {
       image: require("../../assets/image/categorie1.jpg"),
-      text: "Pack",
+      text: "Catgorie4",
     },
     {
       image: require("../../assets/image/categorie1.jpg"),
-      text: "Home bijoux",
+      text: "Catgorie5",
     },
     {
       image: require("../../assets/image/categorie1.jpg"),
-      text: "Sales",
+      text: "Catgorie6",
     }
   ];
 export default Categories;
